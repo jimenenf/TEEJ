@@ -160,6 +160,7 @@
         <li><a class="hover:text-leaf-400" href="#servicios">Servicios</a></li>
         <li><a class="hover:text-leaf-400" href="#flotilla">Flotilla</a></li>
         <li><a class="hover:text-leaf-400" href="#seguridad">Seguridad</a></li>
+        <li><a class="hover:text-leaf-400" href="#infraestructura">Infraestructura</a></li>
         <li><a class="hover:text-leaf-400" href="#historia">Historia</a></li>
         <li><a class="hover:text-leaf-400" href="#faq">Preguntas</a></li>
         <li><a class="hover:text-leaf-400" href="#contacto">Contacto</a></li>
@@ -179,6 +180,7 @@
         <li><a class="block py-3" href="#servicios">Servicios</a></li>
         <li><a class="block py-3" href="#flotilla">Flotilla</a></li>
         <li><a class="block py-3" href="#seguridad">Seguridad</a></li>
+        <li><a class="block py-3" href="#infraestructura">Infraestructura</a></li>
         <li><a class="block py-3" href="#historia">Historia</a></li>
         <li><a class="block py-3" href="#faq">Preguntas</a></li>
         <li><a class="block py-3" href="#contacto">Contacto</a></li>
@@ -199,87 +201,69 @@
         <!-- Texto -->
         <div>
           <p class="mb-5 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-sm font-medium text-leaf-300">
-            <svg class="h-4 w-4"><use href="#i-pin"/></svg> Transporte escolar y empresarial · Mexicali, Baja California
+            <svg class="h-4 w-4"><use href="#i-pin"/></svg> Transporte escolar y de personal · Mexicali, Baja California
           </p>
           <h1 class="text-4xl font-extrabold leading-[1.05] sm:text-5xl lg:text-6xl">
-            Más de 35 años moviendo personas con seguridad y confianza.
+            Transporte escolar y de personal en Mexicali, con más de 35 años de experiencia familiar.
           </h1>
           <p class="mt-6 max-w-xl text-lg leading-relaxed text-white/80">
-            Rutas para empresas y servicio de transporte para escuelas, con la experiencia de una empresa familiar de Mexicali y monitoreo GPS en cada recorrido.
+            Rutas para empresas y escuelas con el respaldo de una flotilla de más de 68 unidades del grupo familiar, monitoreo GPS y control operativo 24/7.
           </p>
           <p class="mt-3 max-w-xl text-base text-white/65">
             Cuéntenos qué necesita y le preparamos una cotización a la medida, sin compromiso.
           </p>
 
-          <!-- Dos caminos: data-servicio preselecciona el formulario (ver script del Paso final) -->
-          <div class="mt-9 flex flex-col gap-3 sm:flex-row">
-            <a href="#cotizar" data-servicio="Excursión o evento escolar"
+          <!-- data-servicio preselecciona el formulario -->
+          <div class="mt-9 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+            <a href="https://wa.me/526869463113?text=Hola%20TEEJ%2C%20quiero%20cotizar%20un%20servicio%20de%20transporte." target="_blank" rel="noopener"
               class="inline-flex items-center justify-center gap-2 rounded-full bg-leaf-500 px-7 py-4 text-base font-bold text-pine-950 shadow-lg shadow-leaf-500/20 transition hover:bg-leaf-400">
+              <svg class="h-5 w-5"><use href="#i-chat"/></svg> Cotizar por WhatsApp
+            </a>
+            <a href="#cotizar" data-servicio="Excursión o evento escolar"
+              class="inline-flex items-center justify-center gap-2 rounded-full border-2 border-leaf-500/70 bg-pine-800 px-6 py-4 text-base font-bold text-white transition hover:bg-pine-700">
               <svg class="h-5 w-5"><use href="#i-cap"/></svg> Soy escuela
             </a>
             <a href="#cotizar" data-servicio="Transporte diario de personal"
-              class="inline-flex items-center justify-center gap-2 rounded-full border-2 border-leaf-500/70 bg-pine-800 px-7 py-4 text-base font-bold text-white transition hover:bg-pine-700">
+              class="inline-flex items-center justify-center gap-2 rounded-full border-2 border-leaf-500/70 bg-pine-800 px-6 py-4 text-base font-bold text-white transition hover:bg-pine-700">
               <svg class="h-5 w-5"><use href="#i-factory"/></svg> Soy empresa
             </a>
           </div>
-          <p class="mt-5">
-            <a href="https://wa.me/526862426735?text=Hola%20TEEJ%2C%20quiero%20informaci%C3%B3n%20sobre%20sus%20servicios%20de%20transporte." target="_blank" rel="noopener"
-              class="inline-flex items-center gap-2 text-sm font-semibold text-leaf-300 underline-offset-4 hover:underline">
-              <svg class="h-5 w-5"><use href="#i-chat"/></svg> Prefiero escribir por WhatsApp
-            </a>
-          </p>
 
           <ul class="mt-9 flex flex-wrap gap-x-6 gap-y-3 text-sm font-medium text-white/75">
             <li class="flex items-center gap-2"><svg class="h-5 w-5 text-leaf-400"><use href="#i-heart"/></svg> Empresa familiar</li>
-            <li class="flex items-center gap-2"><svg class="h-5 w-5 text-leaf-400"><use href="#i-gps"/></svg> Monitoreo GPS</li>
-            <li class="flex items-center gap-2"><svg class="h-5 w-5 text-leaf-400"><use href="#i-cap"/></svg> Operadores capacitados</li>
+            <li class="flex items-center gap-2"><svg class="h-5 w-5 text-leaf-400"><use href="#i-users"/></svg> Respaldo del Grupo Amilpa</li>
+            <li class="flex items-center gap-2"><svg class="h-5 w-5 text-leaf-400"><use href="#i-gps"/></svg> GPS GeoLogistic</li>
           </ul>
         </div>
 
         <!-- Fotografía principal -->
         <div class="relative">
-          <div class="overflow-hidden rounded-[2rem] border border-white/15 shadow-2xl shadow-black/30">
-            <!-- Utilizar images/TEEJ.png -->
-            <img src="images/TEEJ.png" alt="Transporte escolar y empresarial TEEJ en Mexicali"
-                class="aspect-[4/3] w-full object-cover" width="1200" height="900" fetchpriority="high">
+          <div class="overflow-hidden rounded-[2rem] border border-white/15 bg-white shadow-2xl shadow-black/30">
+            <img src="images/Flota_Caracteristicas.png" alt="Flotilla moderna y diversificada del grupo familiar Amilpa: más de 68 unidades con aire acondicionado y GPS"
+                class="aspect-[16/9] w-full object-cover" width="1096" height="619" fetchpriority="high">
           </div>
-          <!-- Sello discreto -->
           <div class="absolute -bottom-5 left-5 rounded-2xl bg-leaf-500 px-5 py-3 text-pine-950 shadow-xl">
             <span class="font-display text-3xl font-extrabold leading-none">35+</span>
             <span class="block text-sm font-bold">años de experiencia</span>
           </div>
+          <p class="mt-9 text-xs text-white/60">Flotilla del grupo familiar Autotransportes Fernando Amilpa.</p>
         </div>
       </div>
     </section>
 
-    <!-- ================= 2. FRANJA DE CREDENCIALES =================
-        Solo datos verificados. Cuando confirmes el número de unidades de TEEJ,
-        agrega un quinto <li> y cambia lg:grid-cols-4 por lg:grid-cols-5. -->
-    <section id="credenciales" class="bg-white py-14" aria-labelledby="credTitulo">
+    <!-- ================= 2. BARRA DE MÉTRICAS ================= -->
+    <section id="credenciales" class="relative z-10 bg-white pb-12 pt-0" aria-labelledby="credTitulo">
       <div class="mx-auto max-w-7xl px-5 lg:px-8">
-        <h2 id="credTitulo" class="reveal text-center text-xs font-bold uppercase tracking-[.2em] text-leaf-600">Por qué confían en nosotros</h2>
-        <ul class="reveal mt-9 grid grid-cols-2 gap-y-10 lg:grid-cols-4 lg:divide-x lg:divide-pine-900/10">
-          <li class="px-2 text-center lg:px-8">
-            <svg class="mx-auto h-8 w-8 text-pine-800"><use href="#i-clock"/></svg>
-            <p class="mt-3 font-display text-3xl font-extrabold text-pine-900">35+ años</p>
-            <p class="mt-1 text-sm text-graphite-500">Operando transporte en Mexicali</p>
-          </li>
-          <li class="px-2 text-center lg:px-8">
-            <svg class="mx-auto h-8 w-8 text-pine-800"><use href="#i-heart"/></svg>
-            <p class="mt-3 font-display text-2xl font-extrabold text-pine-900">Empresa familiar</p>
-            <p class="mt-1 text-sm text-graphite-500">Trato directo con quienes dirigen el servicio</p>
-          </li>
-          <li class="px-2 text-center lg:px-8">
-            <svg class="mx-auto h-8 w-8 text-pine-800"><use href="#i-gps"/></svg>
-            <p class="mt-3 font-display text-2xl font-extrabold text-pine-900">Monitoreo GPS</p>
-            <p class="mt-1 text-sm text-graphite-500">Seguimiento de las unidades durante el recorrido</p>
-          </li>
-          <li class="px-2 text-center lg:px-8">
-            <svg class="mx-auto h-8 w-8 text-pine-800"><use href="#i-cap"/></svg>
-            <p class="mt-3 font-display text-2xl font-extrabold text-pine-900">Operadores capacitados</p>
-            <p class="mt-1 text-sm text-graphite-500">Choferes preparados para trabajar con personal y estudiantes</p>
-          </li>
+        <h2 id="credTitulo" class="sr-only">Respaldo y experiencia en cifras</h2>
+        <ul class="reveal -mt-6 grid grid-cols-2 gap-px overflow-hidden rounded-3xl bg-white/10 text-white shadow-2xl shadow-pine-950/20 sm:grid-cols-3 lg:grid-cols-6 lg:-mt-10">
+          <li class="bg-pine-900 px-4 py-6 text-center"><p class="font-display text-3xl font-extrabold text-leaf-400">35+</p><p class="mt-1 text-xs text-white/75">años de experiencia familiar (TEEJ)</p></li>
+          <li class="bg-pine-900 px-4 py-6 text-center"><p class="font-display text-3xl font-extrabold text-leaf-400">55+</p><p class="mt-1 text-xs text-white/75">años del grupo, desde 1969</p></li>
+          <li class="bg-pine-900 px-4 py-6 text-center"><p class="font-display text-3xl font-extrabold text-leaf-400">68+</p><p class="mt-1 text-xs text-white/75">unidades del grupo familiar</p></li>
+          <li class="bg-pine-900 px-4 py-6 text-center"><p class="font-display text-3xl font-extrabold text-leaf-400">24/7</p><p class="mt-1 text-xs text-white/75">monitoreo GPS</p></li>
+          <li class="bg-pine-900 px-4 py-6 text-center"><p class="font-display text-2xl font-extrabold leading-9 text-leaf-400">2 bases</p><p class="mt-1 text-xs text-white/75">Mexicali y Rosarito</p></li>
+          <li class="bg-pine-900 px-4 py-6 text-center"><p class="font-display text-2xl font-extrabold leading-9 text-leaf-400">IMOS</p><p class="mt-1 text-xs text-white/75">concesión revalidada (grupo)</p></li>
         </ul>
+        <p class="mt-4 text-center text-xs text-graphite-500">Cifras del grupo familiar Autotransportes Fernando Amilpa, con el que TEEJ comparte respaldo operativo.</p>
       </div>
     </section>
     <!-- ================= 3. SERVICIOS ================= -->
@@ -407,7 +391,7 @@
           <p class="mt-4 text-graphite-700"><strong class="text-pine-900">Servicios empresariales:</strong> transporte diario de personal, rutas para maquiladoras e industria, ferias de empleo y eventos corporativos.</p>
           <div class="mt-8 flex flex-col gap-3 sm:flex-row">
             <a href="#cotizar" data-servicio="Transporte diario de personal" class="inline-flex justify-center rounded-full bg-pine-900 px-6 py-3 font-bold text-white transition hover:bg-pine-800">Cotizar rutas para mi empresa</a>
-            <a href="https://wa.me/526862426735?text=Hola%20TEEJ%2C%20quiero%20cotizar%20transporte%20para%20mi%20empresa." target="_blank" rel="noopener" class="inline-flex justify-center rounded-full border-2 border-pine-900 px-6 py-3 font-bold text-pine-900 transition hover:bg-pine-900 hover:text-white">Hablar por WhatsApp</a>
+            <a href="https://wa.me/526869463113?text=Hola%20TEEJ%2C%20quiero%20cotizar%20transporte%20para%20mi%20empresa." target="_blank" rel="noopener" class="inline-flex justify-center rounded-full border-2 border-pine-900 px-6 py-3 font-bold text-pine-900 transition hover:bg-pine-900 hover:text-white">Hablar por WhatsApp</a>
           </div>
         </div>
 
@@ -423,45 +407,52 @@
       </div>
     </section>
 
-    <!-- ================= 6. FLOTILLA ================= -->
+    <!-- ================= 6. FLOTILLA Y CAPACIDAD OPERATIVA ================= -->
     <section id="flotilla" class="bg-pine-950 py-20 text-white lg:py-28">
       <div class="mx-auto max-w-7xl px-5 lg:px-8">
-        <div class="reveal max-w-2xl">
-          <p class="mb-3 text-sm font-semibold text-leaf-400">Nuestra flotilla</p>
-          <h2 class="text-3xl font-extrabold leading-tight sm:text-4xl lg:text-5xl">Unidades para cada tipo de servicio.</h2>
-          <p class="mt-5 text-lg text-white/70">Le recomendamos la unidad adecuada según el número de pasajeros, la ruta y el tipo de evento.</p>
+        <div class="reveal max-w-3xl">
+          <p class="mb-3 text-sm font-semibold text-leaf-400">Flotilla y capacidad operativa</p>
+          <h2 class="text-3xl font-extrabold leading-tight sm:text-4xl lg:text-5xl">Más de 68 unidades del grupo familiar para respaldar su servicio.</h2>
+          <p class="mt-5 text-lg text-white/70">TEEJ cuenta con el respaldo de la flotilla de Autotransportes Fernando Amilpa, empresa de nuestro mismo grupo familiar. Le recomendamos la unidad adecuada según el número de pasajeros, la ruta y el tipo de servicio.</p>
         </div>
 
-        <!-- Foto protagonista -->
-        <div class="reveal mt-10 overflow-hidden rounded-3xl border border-white/10">
-          <!-- Utilizar images/Unidades-TEEJ.png -->
-          <img src="images/Unidades-TEEJ.png" alt="Flotilla de unidades TEEJ" class="w-full object-cover" loading="lazy" width="1600" height="900">
+        <div class="reveal mt-10 grid gap-5 sm:grid-cols-2">
+          <figure class="overflow-hidden rounded-3xl border border-white/10 bg-white">
+            <img src="images/Nuestras_Unidades1_pptx.png" alt="Unidades DINA Picker y Mercedes-Benz G4 del grupo familiar" class="w-full" loading="lazy" width="1097" height="619">
+            <figcaption class="bg-pine-900 px-5 py-3 text-sm font-semibold">DINA Picker · Mercedes-Benz G4</figcaption>
+          </figure>
+          <figure class="overflow-hidden rounded-3xl border border-white/10 bg-white">
+            <img src="images/Nuestras_Unidades2_pptx.png" alt="Unidad Mercedes-Benz MBO del grupo familiar" class="w-full" loading="lazy" width="1091" height="615">
+            <figcaption class="bg-pine-900 px-5 py-3 text-sm font-semibold">Mercedes-Benz MBO</figcaption>
+          </figure>
+          <figure class="overflow-hidden rounded-3xl border border-white/10 bg-white">
+            <img src="images/Nuestras_Unidades3_pptx.png" alt="Autobús Mercedes-Benz OF para grupos grandes" class="w-full" loading="lazy" width="1083" height="629">
+            <figcaption class="bg-pine-900 px-5 py-3 text-sm font-semibold">Mercedes-Benz OF</figcaption>
+          </figure>
+          <figure class="overflow-hidden rounded-3xl border border-white/10 bg-white">
+            <img src="images/Nuestras_Unidades4_pptx.png" alt="Mercedes-Benz Sprinter y Nissan Urvan NV350 para 12 pasajeros" class="w-full" loading="lazy" width="1098" height="619">
+            <figcaption class="bg-pine-900 px-5 py-3 text-sm font-semibold">Mercedes-Benz Sprinter · Nissan Urvan NV350 (12 pasajeros)</figcaption>
+          </figure>
         </div>
 
-        <p class="reveal mt-8 max-w-3xl text-lg leading-relaxed text-white/75">
-          Nuestra flotilla se apoya en unidades confiables y limpias, con monitoreo GPS. Además, parte de la flotilla se comparte con nuestro grupo familiar, lo que amplía la capacidad de respuesta cuando su servicio lo requiere.
-        </p>
-
-        <!-- POR CONFIRMAR: activar cuando tengas tipos de unidad y capacidades reales de TEEJ.
-            Reemplazar [CAPACIDAD] por el dato real. No publicar marcas ni modelos sin confirmar.
         <div class="reveal mt-10 grid gap-5 md:grid-cols-3">
-          <article class="rounded-3xl bg-pine-900 p-7"><svg class="h-8 w-8 text-leaf-400"><use href="#i-bus"/></svg><h3 class="mt-4 text-xl font-bold">Unidad para grupos grandes</h3><p class="mt-1 text-sm font-semibold text-leaf-300">Capacidad: [CAPACIDAD]</p><p class="mt-2 text-white/70">Ideal para rutas de personal y excursiones de grupos numerosos.</p></article>
-          <article class="rounded-3xl bg-pine-900 p-7"><svg class="h-8 w-8 text-leaf-400"><use href="#i-bus"/></svg><h3 class="mt-4 text-xl font-bold">Unidad para grupos medianos</h3><p class="mt-1 text-sm font-semibold text-leaf-300">Capacidad: [CAPACIDAD]</p><p class="mt-2 text-white/70">Ideal para eventos escolares y corporativos.</p></article>
-          <article class="rounded-3xl bg-pine-900 p-7"><svg class="h-8 w-8 text-leaf-400"><use href="#i-bus"/></svg><h3 class="mt-4 text-xl font-bold">Unidad para grupos pequeños</h3><p class="mt-1 text-sm font-semibold text-leaf-300">Capacidad: [CAPACIDAD]</p><p class="mt-2 text-white/70">Ideal para traslados de delegaciones reducidas.</p></article>
+          <article class="rounded-3xl bg-pine-900 p-7"><svg class="h-8 w-8 text-leaf-400"><use href="#i-bus"/></svg><h3 class="mt-4 text-xl font-bold">Autobuses y microbuses</h3><p class="mt-2 text-white/70">DINA Picker, Mercedes-Benz G4, MBO y OF para rutas de personal, escuelas y grupos numerosos.</p></article>
+          <article class="rounded-3xl bg-pine-900 p-7"><svg class="h-8 w-8 text-leaf-400"><use href="#i-users"/></svg><h3 class="mt-4 text-xl font-bold">Vans para grupos medianos</h3><p class="mt-2 text-white/70">Mercedes-Benz Sprinter y Nissan Urvan NV350 con capacidad para 12 pasajeros.</p></article>
+          <article class="rounded-3xl bg-pine-900 p-7"><svg class="h-8 w-8 text-leaf-400"><use href="#i-shield"/></svg><h3 class="mt-4 text-xl font-bold">Servicios especiales</h3><p class="mt-2 text-white/70">Chevrolet Suburban para 7 pasajeros: traslados ejecutivos y delegaciones reducidas.</p></article>
         </div>
-        -->
 
-        <!-- Características comunes (solo las confirmadas) -->
-        <ul class="reveal mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          <li class="flex items-center gap-3 rounded-2xl bg-pine-900 p-5"><svg class="h-6 w-6 shrink-0 text-leaf-400"><use href="#i-gps"/></svg><span class="font-semibold">Monitoreo GPS</span></li>
-          <li class="flex items-center gap-3 rounded-2xl bg-pine-900 p-5"><svg class="h-6 w-6 shrink-0 text-leaf-400"><use href="#i-cap"/></svg><span class="font-semibold">Operadores capacitados</span></li>
-          <li class="flex items-center gap-3 rounded-2xl bg-pine-900 p-5"><svg class="h-6 w-6 shrink-0 text-leaf-400"><use href="#i-wrench"/></svg><span class="font-semibold">Mantenimiento constante</span></li>
-          <li class="flex items-center gap-3 rounded-2xl bg-pine-900 p-5"><svg class="h-6 w-6 shrink-0 text-leaf-400"><use href="#i-users"/></svg><span class="font-semibold">Respaldo del grupo familiar</span></li>
+        <ul class="reveal mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <li class="flex items-center gap-3 rounded-2xl bg-pine-900 p-5"><svg class="h-6 w-6 shrink-0 text-leaf-400"><use href="#i-check"/></svg><span class="font-semibold">Modelos recientes</span></li>
+          <li class="flex items-center gap-3 rounded-2xl bg-pine-900 p-5"><svg class="h-6 w-6 shrink-0 text-leaf-400"><use href="#i-check"/></svg><span class="font-semibold">Aire acondicionado y cortinas</span></li>
+          <li class="flex items-center gap-3 rounded-2xl bg-pine-900 p-5"><svg class="h-6 w-6 shrink-0 text-leaf-400"><use href="#i-check"/></svg><span class="font-semibold">Asientos de tela y confort</span></li>
+          <li class="flex items-center gap-3 rounded-2xl bg-pine-900 p-5"><svg class="h-6 w-6 shrink-0 text-leaf-400"><use href="#i-gps"/></svg><span class="font-semibold">GPS en todas las unidades</span></li>
+          <li class="flex items-center gap-3 rounded-2xl bg-pine-900 p-5"><svg class="h-6 w-6 shrink-0 text-leaf-400"><use href="#i-wrench"/></svg><span class="font-semibold">Mantenimiento preventivo y correctivo</span></li>
+          <li class="flex items-center gap-3 rounded-2xl bg-pine-900 p-5"><svg class="h-6 w-6 shrink-0 text-leaf-400"><use href="#i-route"/></svg><span class="font-semibold">Múltiples rutas y altos volúmenes</span></li>
         </ul>
 
         <div class="reveal mt-10 flex flex-col gap-3 sm:flex-row">
           <a href="#cotizar" class="inline-flex justify-center rounded-full bg-leaf-500 px-7 py-4 font-bold text-pine-950 transition hover:bg-leaf-400">Cotizar según mi grupo</a>
-          <a href="https://wa.me/526862426735?text=Hola%20TEEJ%2C%20quiero%20saber%20qu%C3%A9%20unidad%20es%20la%20ideal%20para%20mi%20grupo." target="_blank" rel="noopener" class="inline-flex justify-center rounded-full border border-white/30 px-7 py-4 font-bold text-white transition hover:bg-white/10">Preguntar por la unidad ideal</a>
+          <a href="https://wa.me/526869463113?text=Hola%20TEEJ%2C%20quiero%20saber%20qu%C3%A9%20unidad%20es%20la%20ideal%20para%20mi%20grupo." target="_blank" rel="noopener" class="inline-flex justify-center rounded-full border border-white/30 px-7 py-4 font-bold text-white transition hover:bg-white/10">Preguntar por la unidad ideal</a>
         </div>
       </div>
     </section>
@@ -471,16 +462,16 @@
       <div class="mx-auto grid max-w-7xl gap-12 px-5 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20 lg:px-8">
 
         <div class="reveal">
-          <p class="mb-3 text-sm font-semibold text-leaf-600">Seguridad y tecnología</p>
+          <p class="mb-3 text-sm font-semibold text-pine-700">Seguridad y Tecnología</p>
           <h2 class="text-3xl font-extrabold leading-tight text-pine-900 sm:text-4xl lg:text-5xl">Su tranquilidad viaja con cada unidad.</h2>
-          <p class="mt-5 text-lg leading-relaxed text-graphite-700">Operadores preparados, unidades en mantenimiento y supervisión durante el recorrido.</p>
-          <div class="mt-8 overflow-hidden rounded-3xl">
-            <!-- Utilizar images/Unidades-TEEJ.png (recorte de detalle: frente o lateral de la unidad) -->
-            <img src="images/Unidades-TEEJ.png" alt="Detalle de una unidad TEEJ" class="h-64 w-full object-cover object-right" loading="lazy" width="900" height="600">
-          </div>
+          <p class="mt-5 text-lg leading-relaxed text-graphite-700">Cumplimiento normativo, operadores evaluados y tecnología de monitoreo en tiempo real, con el respaldo operativo del grupo familiar.</p>
+          <figure class="mt-8 overflow-hidden rounded-3xl border border-pine-900/10">
+            <img src="images/Seguridad_Cumplimiento_Normativo_pptx.png" alt="Seguridad y cumplimiento normativo: revalidación de concesión de servicio público de transporte del IMOS" class="w-full" loading="lazy" width="1100" height="620">
+            <figcaption class="bg-mist px-5 py-3 text-xs text-graphite-500">Respaldo del grupo: Autotransportes Fernando Amilpa.</figcaption>
+          </figure>
           <div class="mt-8 flex flex-col gap-3 sm:flex-row">
             <a href="#cotizar" class="inline-flex justify-center rounded-full bg-pine-900 px-6 py-3 font-bold text-white transition hover:bg-pine-800">Solicitar cotización</a>
-            <a href="https://wa.me/526862426735?text=Hola%20TEEJ%2C%20tengo%20dudas%20sobre%20seguridad%20del%20servicio." target="_blank" rel="noopener" class="inline-flex justify-center rounded-full border-2 border-pine-900 px-6 py-3 font-bold text-pine-900 transition hover:bg-pine-900 hover:text-white">Resolver dudas por WhatsApp</a>
+            <a href="https://wa.me/526869463113?text=Hola%20TEEJ%2C%20tengo%20dudas%20sobre%20seguridad%20del%20servicio." target="_blank" rel="noopener" class="inline-flex justify-center rounded-full border-2 border-pine-900 px-6 py-3 font-bold text-pine-900 transition hover:bg-pine-900 hover:text-white">Resolver dudas por WhatsApp</a>
           </div>
         </div>
 
@@ -489,17 +480,17 @@
           <ol class="relative mt-8 space-y-8 border-l-2 border-leaf-500/40 pl-8">
             <li class="relative">
               <span class="absolute -left-[46px] grid h-8 w-8 place-items-center rounded-full bg-pine-900 text-sm font-bold text-white">1</span>
-              <h3 class="text-xl font-bold text-pine-900">Monitoreo GPS</h3>
-              <p class="mt-1 text-graphite-500">Damos seguimiento a la ubicación de las unidades durante el recorrido.</p>
+              <h3 class="text-xl font-bold text-pine-900">Cumplimiento normativo</h3>
+              <p class="mt-1 text-graphite-500">Concesión de Servicio Público de Transporte revalidada ante el IMOS (Instituto de Movilidad Sustentable de Baja California), vigente por 10 años desde octubre de 2021. Documentación actualizada y revisiones periódicas de las unidades.</p>
             </li>
             <li class="relative">
               <span class="absolute -left-[46px] grid h-8 w-8 place-items-center rounded-full bg-pine-900 text-sm font-bold text-white">2</span>
-              <h3 class="text-xl font-bold text-pine-900">Operadores capacitados</h3>
-              <p class="mt-1 text-graphite-500">Choferes profesionales, con trato respetuoso hacia pasajeros y estudiantes.</p>
+              <h3 class="text-xl font-bold text-pine-900">Operadores capacitados y evaluados</h3>
+              <p class="mt-1 text-graphite-500">Supervisión constante y protocolos operativos, con trato respetuoso hacia pasajeros y estudiantes.</p>
             </li>
             <li class="relative">
               <span class="absolute -left-[46px] grid h-8 w-8 place-items-center rounded-full bg-pine-900 text-sm font-bold text-white">3</span>
-              <h3 class="text-xl font-bold text-pine-900">Unidades en mantenimiento</h3>
+              <h3 class="text-xl font-bold text-pine-900">Mantenimiento preventivo y correctivo</h3>
               <p class="mt-1 text-graphite-500">Cuidamos el estado de la flotilla para prevenir fallas.</p>
             </li>
             <li class="relative">
@@ -511,18 +502,56 @@
         </div>
       </div>
 
-      <!-- POR CONFIRMAR: ampliación tecnológica. Activar SOLO lo que aplique a las unidades de TEEJ y tenga respaldo documental.
-      <div class="mx-auto mt-14 max-w-7xl px-5 lg:px-8">
-        <h3 class="text-2xl font-extrabold text-pine-900">Tecnología y control</h3>
-        <ul class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          <li>Cámaras de videovigilancia en las unidades</li>
-          <li>Monitoreo continuo 24/7</li>
-          <li>Conteo de personas integrado al GPS</li>
-          <li>Documentación al día y revisiones periódicas</li>
-          <li>Concesión o permiso de operación vigente</li>
-        </ul>
+      <div class="mx-auto mt-16 max-w-7xl px-5 lg:px-8">
+        <div class="reveal grid items-center gap-10 rounded-3xl bg-mist p-6 sm:p-10 lg:grid-cols-2 lg:gap-14">
+          <div>
+            <h3 class="text-2xl font-extrabold text-pine-900 sm:text-3xl">Tecnología y control operativo</h3>
+            <p class="mt-3 text-graphite-700">Las unidades cuentan con tecnología de monitoreo en tiempo real y conteo inteligente de personas, con rastreo de GeoLogistic.</p>
+            <ul class="mt-6 grid gap-3 sm:grid-cols-2">
+              <li class="flex items-start gap-3 rounded-2xl bg-white p-4"><svg class="mt-0.5 h-6 w-6 shrink-0 text-pine-800"><use href="#i-shield"/></svg><span class="font-semibold text-pine-900">Cámaras de videovigilancia en tiempo real</span></li>
+              <li class="flex items-start gap-3 rounded-2xl bg-white p-4"><svg class="mt-0.5 h-6 w-6 shrink-0 text-pine-800"><use href="#i-gps"/></svg><span class="font-semibold text-pine-900">GPS GeoLogistic en todas las unidades</span></li>
+              <li class="flex items-start gap-3 rounded-2xl bg-white p-4"><svg class="mt-0.5 h-6 w-6 shrink-0 text-pine-800"><use href="#i-clock"/></svg><span class="font-semibold text-pine-900">Monitoreo 24/7</span></li>
+              <li class="flex items-start gap-3 rounded-2xl bg-white p-4"><svg class="mt-0.5 h-6 w-6 shrink-0 text-pine-800"><use href="#i-users"/></svg><span class="font-semibold text-pine-900">Conteo inteligente de personas</span></li>
+              <li class="flex items-start gap-3 rounded-2xl bg-white p-4"><svg class="mt-0.5 h-6 w-6 shrink-0 text-pine-800"><use href="#i-clipboard"/></svg><span class="font-semibold text-pine-900">Registro automático y reportes disponibles</span></li>
+              <li class="flex items-start gap-3 rounded-2xl bg-white p-4"><svg class="mt-0.5 h-6 w-6 shrink-0 text-pine-800"><use href="#i-route"/></svg><span class="font-semibold text-pine-900">Control operativo permanente</span></li>
+            </ul>
+          </div>
+          <figure class="overflow-hidden rounded-3xl border border-pine-900/10 bg-white">
+            <img src="images/gps_pptx.png" alt="GeoLogistic, rastreo vehicular con conteo inteligente de personas integrado al monitoreo GPS" class="w-full" loading="lazy" width="1104" height="609">
+          </figure>
+        </div>
       </div>
-      -->
+    </section>
+
+    <!-- ================= 7B. INFRAESTRUCTURA Y RESPALDO OPERATIVO ================= -->
+    <section id="infraestructura" class="bg-pine-900 py-20 text-white lg:py-28">
+      <div class="mx-auto max-w-7xl px-5 lg:px-8">
+        <div class="reveal max-w-3xl">
+          <p class="mb-3 text-sm font-semibold text-leaf-400">Infraestructura y respaldo operativo</p>
+          <h2 class="text-3xl font-extrabold leading-tight sm:text-4xl lg:text-5xl">Bases propias para que el servicio no se detenga.</h2>
+          <p class="mt-5 text-lg text-white/75">El grupo familiar opera desde Mexicali y Rosarito con patio, taller, control GPS y áreas de capacitación, para atender industrias, maquiladoras e instituciones.</p>
+        </div>
+
+        <div class="reveal mt-10 grid items-start gap-8 lg:grid-cols-2">
+          <figure class="overflow-hidden rounded-3xl border border-white/10 bg-white">
+            <img src="images/Infraestructura_estrategica_pptx.png" alt="Infraestructura estratégica en Mexicali y Rosarito: patio, taller, oficina y control GPS" class="w-full" loading="lazy" width="1100" height="620">
+          </figure>
+          <figure class="overflow-hidden rounded-3xl border border-white/10 bg-white">
+            <img src="images/Experiencia_Operativa_pptx.png" alt="Experiencia operativa con industrias, maquiladoras e instituciones" class="w-full" loading="lazy" width="1100" height="620">
+          </figure>
+        </div>
+
+        <div class="reveal mt-10 grid gap-5 md:grid-cols-3">
+          <article class="rounded-3xl bg-pine-950 p-7"><svg class="h-8 w-8 text-leaf-400"><use href="#i-pin"/></svg><h3 class="mt-4 text-xl font-bold">Base Mexicali</h3><p class="mt-2 text-white/70">Patio de resguardo, área de mantenimiento, oficina administrativa y de operaciones, control GPS 24/7 y área de capacitación.</p></article>
+          <article class="rounded-3xl bg-pine-950 p-7"><svg class="h-8 w-8 text-leaf-400"><use href="#i-route"/></svg><h3 class="mt-4 text-xl font-bold">Base Rosarito</h3><p class="mt-2 text-white/70">Punto de salida y coordinación, con área para supervisores y operadores.</p></article>
+          <article class="rounded-3xl bg-pine-950 p-7"><svg class="h-8 w-8 text-leaf-400"><use href="#i-factory"/></svg><h3 class="mt-4 text-xl font-bold">Capacidad operativa</h3><p class="mt-2 text-white/70">Rutas continuas, horarios especiales, altos volúmenes y adaptación a cambios de turno o ampliaciones de planta.</p></article>
+        </div>
+
+        <div class="reveal mt-10 flex flex-col gap-3 sm:flex-row">
+          <a href="#cotizar" class="inline-flex justify-center rounded-full bg-leaf-500 px-7 py-4 font-bold text-pine-950 transition hover:bg-leaf-400">Solicitar cotización</a>
+          <a href="https://wa.me/526869463113?text=Hola%20TEEJ%2C%20quiero%20hablar%20sobre%20transporte%20para%20mi%20empresa." target="_blank" rel="noopener" class="inline-flex justify-center rounded-full border border-white/30 px-7 py-4 font-bold text-white transition hover:bg-white/10">Hablar por WhatsApp</a>
+        </div>
+      </div>
     </section>
 
     <!-- ================= 8. RESPALDO DE GRUPO FAMILIAR ================= -->
@@ -545,7 +574,7 @@
             <span class="rounded-full border border-pine-900/20 bg-white px-4 py-2">Grupo familiar de transporte</span>
           </p>
           <div class="mt-8 flex flex-col gap-3 sm:flex-row">
-            <a href="https://wa.me/526862426735?text=Hola%20TEEJ%2C%20quiero%20hablar%20sobre%20un%20servicio%20de%20transporte." target="_blank" rel="noopener" class="inline-flex justify-center rounded-full bg-leaf-500 px-6 py-3 font-bold text-pine-950 transition hover:bg-leaf-400">Hablar con nosotros por WhatsApp</a>
+            <a href="https://wa.me/526869463113?text=Hola%20TEEJ%2C%20quiero%20hablar%20sobre%20un%20servicio%20de%20transporte." target="_blank" rel="noopener" class="inline-flex justify-center rounded-full bg-leaf-500 px-6 py-3 font-bold text-pine-950 transition hover:bg-leaf-400">Hablar con nosotros por WhatsApp</a>
             <a href="#cotizar" class="inline-flex justify-center rounded-full border-2 border-pine-900 px-6 py-3 font-bold text-pine-900 transition hover:bg-pine-900 hover:text-white">Solicitar cotización</a>
           </div>
           <!-- Sin fotografía en esta sección (a propósito): las fotos de AMILPA llevan su logo -->
@@ -765,7 +794,7 @@
         <p class="reveal mx-auto mt-10 max-w-2xl text-center text-sm text-graphite-500">Una cotización no es una reservación hasta que TEEJ confirme disponibilidad, precio y condiciones del servicio.</p>
         <div class="reveal mt-8 flex flex-col justify-center gap-3 sm:flex-row">
           <a href="#cotizar" class="inline-flex justify-center rounded-full bg-leaf-500 px-7 py-4 font-bold text-pine-950 transition hover:bg-leaf-400">Solicitar cotización</a>
-          <a href="https://wa.me/526862426735?text=Hola%20TEEJ%2C%20quiero%20cotizar%20un%20servicio." target="_blank" rel="noopener" class="inline-flex justify-center rounded-full border-2 border-pine-900 px-7 py-4 font-bold text-pine-900 transition hover:bg-pine-900 hover:text-white">Prefiero WhatsApp</a>
+          <a href="https://wa.me/526869463113?text=Hola%20TEEJ%2C%20quiero%20cotizar%20un%20servicio." target="_blank" rel="noopener" class="inline-flex justify-center rounded-full border-2 border-pine-900 px-7 py-4 font-bold text-pine-900 transition hover:bg-pine-900 hover:text-white">Prefiero WhatsApp</a>
         </div>
       </div>
     </section>
@@ -786,7 +815,7 @@
           </div>
 
           <div class="mt-8">
-            <a href="https://wa.me/526862426735?text=Hola%20TEEJ%2C%20tengo%20una%20pregunta%20sobre%20sus%20servicios." target="_blank" rel="noopener" class="inline-flex rounded-full bg-leaf-500 px-6 py-3 font-bold text-pine-950 transition hover:bg-leaf-400">¿No encuentra su pregunta? Escríbanos por WhatsApp</a>
+            <a href="https://wa.me/526869463113?text=Hola%20TEEJ%2C%20tengo%20una%20pregunta%20sobre%20sus%20servicios." target="_blank" rel="noopener" class="inline-flex rounded-full bg-leaf-500 px-6 py-3 font-bold text-pine-950 transition hover:bg-leaf-400">¿No encuentra su pregunta? Escríbanos por WhatsApp</a>
             <a href="#cotizar" class="mt-3 block font-bold text-pine-900 underline underline-offset-4">Solicitar cotización</a>
           </div>
         </div>
@@ -855,51 +884,6 @@
       </div>
     </section>
    
-
-    <!-- ================= 9. TESTIMONIOS ================= -->
-    <section id="testimonios" class="bg-mist py-20 lg:py-28">
-      <div class="mx-auto max-w-7xl px-5 lg:px-8">
-        <div class="reveal max-w-2xl">
-          <p class="mb-3 text-sm font-semibold text-leaf-600">Testimonios</p>
-          <h2 class="text-3xl font-extrabold leading-tight text-pine-900 sm:text-4xl lg:text-5xl">Lo que dicen quienes viajan con nosotros.</h2>
-        </div>
-
-        <!-- IMPORTANTE: estos testimonios son ejemplos redactados. Sustitúyalos por opiniones reales de sus clientes (con su autorización). -->
-        <div class="reveal mt-12 grid gap-6 lg:grid-cols-5">
-          <figure class="flex flex-col justify-between rounded-3xl bg-pine-900 p-8 text-white lg:col-span-3 lg:p-10">
-            <div>
-              <div class="flex gap-1 text-leaf-400" aria-label="5 de 5 estrellas">
-                <svg class="h-5 w-5"><use href="#i-star"/></svg><svg class="h-5 w-5"><use href="#i-star"/></svg><svg class="h-5 w-5"><use href="#i-star"/></svg><svg class="h-5 w-5"><use href="#i-star"/></svg><svg class="h-5 w-5"><use href="#i-star"/></svg>
-              </div>
-              <blockquote class="mt-6 font-display text-2xl font-bold leading-snug sm:text-3xl">
-                “Llevamos años con TEEJ y los turnos arrancan a tiempo. Cuando hay un cambio en la ruta, nos responden el mismo día.”
-              </blockquote>
-            </div>
-            <figcaption class="mt-8 text-white/75">
-              <span class="block font-semibold text-white">Coordinadora de Recursos Humanos</span>
-              Empresa manufacturera, Mexicali
-            </figcaption>
-          </figure>
-
-          <div class="grid gap-6 lg:col-span-2">
-            <figure class="rounded-3xl bg-white p-8">
-              <div class="flex gap-1 text-leaf-600" aria-label="5 de 5 estrellas">
-                <svg class="h-4 w-4"><use href="#i-star"/></svg><svg class="h-4 w-4"><use href="#i-star"/></svg><svg class="h-4 w-4"><use href="#i-star"/></svg><svg class="h-4 w-4"><use href="#i-star"/></svg><svg class="h-4 w-4"><use href="#i-star"/></svg>
-              </div>
-              <blockquote class="mt-4 text-lg leading-relaxed text-graphite-700">“Organizar la visita al teatro fue sencillo. Los choferes trataron a los niños con mucho cuidado y regresamos a la hora acordada.”</blockquote>
-              <figcaption class="mt-5 text-sm text-graphite-500"><span class="block font-semibold text-pine-900">Directora académica</span>Colegio particular, Mexicali</figcaption>
-            </figure>
-            <figure class="rounded-3xl bg-white p-8">
-              <div class="flex gap-1 text-leaf-600" aria-label="5 de 5 estrellas">
-                <svg class="h-4 w-4"><use href="#i-star"/></svg><svg class="h-4 w-4"><use href="#i-star"/></svg><svg class="h-4 w-4"><use href="#i-star"/></svg><svg class="h-4 w-4"><use href="#i-star"/></svg><svg class="h-4 w-4"><use href="#i-star"/></svg>
-              </div>
-              <blockquote class="mt-4 text-lg leading-relaxed text-graphite-700">“Para nuestra feria de empleo necesitábamos varias unidades en un solo día. TEEJ lo resolvió sin complicaciones.”</blockquote>
-              <figcaption class="mt-5 text-sm text-graphite-500"><span class="block font-semibold text-pine-900">Gerente de Operaciones</span>Parque industrial, Mexicali</figcaption>
-            </figure>
-          </div>
-        </div>
-      </div>
-    </section>
 
     
 
@@ -1001,7 +985,7 @@
               </a>
             </li>
             <li>
-              <a href="https://wa.me/526862426735?text=Hola%20TEEJ%2C%20quiero%20cotizar%20un%20servicio." target="_blank" rel="noopener" class="flex items-center gap-5 rounded-2xl bg-white p-6 transition hover:shadow-md">
+              <a href="https://wa.me/526869463113?text=Hola%20TEEJ%2C%20quiero%20cotizar%20un%20servicio." target="_blank" rel="noopener" class="flex items-center gap-5 rounded-2xl bg-white p-6 transition hover:shadow-md">
                 <span class="grid h-12 w-12 shrink-0 place-items-center rounded-xl bg-leaf-500 text-pine-950"><svg class="h-6 w-6"><use href="#i-chat"/></svg></span>
                 <span><span class="block text-sm text-graphite-500">WhatsApp</span><span class="font-display text-xl font-bold text-pine-900">686 946 3113</span></span>
               </a>
@@ -1041,7 +1025,7 @@
         <h3 class="text-base font-bold text-white">Contacto</h3>
         <ul class="mt-4 space-y-2 text-sm">
           <li><a class="hover:text-leaf-400" href="tel:+526869463113">686 946 3113</a></li>
-          <li><a class="hover:text-leaf-400" href="https://wa.me/526862426735" target="_blank" rel="noopener">WhatsApp 686 946 3113</a></li>
+          <li><a class="hover:text-leaf-400" href="https://wa.me/526869463113" target="_blank" rel="noopener">WhatsApp 686 946 3113</a></li>
           <li><a class="break-all hover:text-leaf-400" href="mailto:teej.servicios.mxl@gmail.com">teej.servicios.mxl@gmail.com</a></li>
           <li>Mexicali, Baja California</li>
         </ul>
@@ -1068,7 +1052,7 @@
   </footer>
 
   <!-- Botón flotante de WhatsApp -->
-  <a href="https://wa.me/526862426735?text=Hola%20TEEJ%2C%20quiero%20informaci%C3%B3n%20sobre%20sus%20servicios%20de%20transporte." target="_blank" rel="noopener"
+  <a href="https://wa.me/526869463113?text=Hola%20TEEJ%2C%20quiero%20informaci%C3%B3n%20sobre%20sus%20servicios%20de%20transporte." target="_blank" rel="noopener"
      class="wa-float fixed z-40 inline-flex items-center gap-2 rounded-full bg-leaf-500 px-5 py-3.5 font-bold text-pine-950 shadow-xl shadow-black/25 transition hover:bg-leaf-400"
      aria-label="Escribir a TEEJ por WhatsApp">
     <svg class="h-6 w-6"><use href="#i-chat"/></svg>
@@ -1221,7 +1205,7 @@
           }
           var msg = buildMessage();
           if (btn.dataset.channel === 'whatsapp') {
-            window.open('https://wa.me/526862426735?text=' + encodeURIComponent(msg), '_blank', 'noopener');
+            window.open('https://wa.me/526869463113?text=' + encodeURIComponent(msg), '_blank', 'noopener');
             status.textContent = 'Abrimos WhatsApp con su solicitud lista para enviar.';
           } else {
             window.location.href = 'mailto:teej.servicios.mxl@gmail.com?subject=' +
