@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+# PENDIENTE: al publicar el dominio, agregar: Sitemap: https://SU-DOMINIO/sitemap.xml
